@@ -1,0 +1,118 @@
+#contactPage{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 790px;
+    margin-top: 70px;
+    /* background-color: red;
+    margin-left: 500px; */
+}
+.clientDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-left: 400px;
+}
+.clientImgs{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.clientImg1{
+     object-fit: cover;
+     width: 20%;
+     height: 9rem;
+     min-width: 9rem;
+     margin: auto;
+     padding: 0.25rem;
+}
+.clientImg2{
+    object-fit: cover;
+    width: 21%;
+    height: 9rem;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.01rem;
+}
+.clientImg3{
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.25rem;
+}
+.clientImg4{
+    object-fit: cover;
+    width: 25%;
+    height: 9rem;
+    min-width: 9rem;
+    margin: auto;
+    padding: 45px;
+    background-color: white;
+}
+#clients{
+    padding: 2rem;
+}
+.contactPageTitle1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 820px;
+    margin-top: 50px;
+}
+
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    /* background-color: red; */
+    margin-left: 710px;
+}
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    margin-left: 500px;
+}
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+.submitBtn {
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
